@@ -1,4 +1,20 @@
-### Needed for BackerKit server and specs
+# About
+# This is a brewfile. It is a manifest that homebrew can use to setup your dev environment. More on brew bundle here - https://github.com/Homebrew/homebrew-bundle
+
+# To execute:
+# cd/path-to-dotfiles-repo
+# brew bundle
+
+
+# Read more about these installations in our documentation:
+# https://github.com/BackerKit/BackerKit/docs/setup_dev_environment.md
+# https://github.com/BackerKit/BackerKit/docs/setup_dev_tools.md
+
+
+
+
+# Dependencies Needed for BackerKit server and specs
+# ===========
 
 tap "homebrew/bundle"
 tap "homebrew/core"
@@ -25,7 +41,11 @@ mas "Xcode", id: 497799835
 
 
 
-### Developer quality of life tools
+
+
+# Developer quality of life tools
+# ===========
+
 
 tap 'homebrew/command-not-found'
 tap 'homebrew/completions'
